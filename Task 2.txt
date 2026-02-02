@@ -1,0 +1,167 @@
+1) Welcome Program
+- Ask user name using prompt().
+- Show alert: Hi , Welcome to JavaScript Training.
+- Print the same message in console.
+
+Answer: 
+let name = prompt("Enter your name:");
+let popMsg = "Hi " + name + ", Welcome to JavaScript Training.";
+
+alert(popMsg);
+console.log(popMsg);
+
+----------------------------------------------------------------------------------------
+
+2) Console Methods Practice
+- Print 500 using console.log(), console.warn(), console.error().
+- Use console.clear().
+
+Answer: 
+console.log(500);
+console.warn(500);
+console.error(500);
+
+console.clear();
+
+----------------------------------------------------------------------------------------
+
+3) Data Type Identification
+- Create string, number, boolean, undefined, and null variables.
+- Print value and type using typeof.
+
+Answer:
+let str = "Akhil";
+console.log(typeof(str));
+
+let age = 25;
+console.log(typeof(num));
+
+let isFollow = true;
+console.log(typeof(isFollow));
+
+let unknown;
+console.log(typeof(unknown));
+
+let nothing = null;
+console.log(typeof(nothing));
+
+----------------------------------------------------------------------------------------
+
+4) Arithmetic Operations
+- Use let a = 20 and let b = 5.
+- Perform +, -, *, /, %, ** and print results.
+
+Answer: 
+let a = 20;
+let b = 5;
+
+console.log(a + b); 
+console.log(a - b); 
+console.log(a * b); 
+console.log(a / b); 
+console.log(a % b); 
+console.log(a ** b);
+
+----------------------------------------------------------------------------------------
+
+5) Increment & Decrement
+- Demonstrate pre-increment, post-increment, pre-decrement, post-decrement.
+- Print variables clearly.
+
+Answer: 
+let x = 10;
+
+console.log(++x); // pre-increment → 11
+console.log(x++); // post-increment → 11 (now x = 12)
+console.log(--x); // pre-decrement → 11
+console.log(x--); // post-decrement → 11 (now x = 10)
+
+----------------------------------------------------------------------------------------
+
+6) Assignment Operators
+- Use let num = 10.
+- Perform +=, -=, *=, /=, %= and print results.
+
+Answer:
+let num = 10;
+
+num += 5;  
+console.log(num); // 15
+
+num -= 3;  
+console.log(num); // 12
+
+num *= 2;  
+console.log(num); // 24
+
+num /= 4;  
+console.log(num); // 6
+
+num %= 5;  
+console.log(num); // 1
+
+----------------------------------------------------------------------------------------
+
+7) Array Access
+- Create array ['HTML','CSS','JavaScript','React'].
+- Print first element, second element, last element (using length), and total elements.
+
+Answer:
+let skills = ['HTML', 'CSS', 'JavaScript', 'React'];
+
+console.log(skills[0]);                 // first element
+console.log(skills[1]);                 // second element
+console.log(skills[skills.length - 1]); // last element
+console.log(skills.length);             // total elements
+
+----------------------------------------------------------------------------------------
+
+8) Modify Array
+- Add one element at end.
+- Remove last element.
+- Print updated array.
+
+Answer:
+let skills = ['HTML', 'CSS', 'JavaScript', 'React'];
+
+skills.push('NodeJS'); // Add element at end
+skills.pop(); // Remove last element
+console.log(skills); // Print updated array
+
+----------------------------------------------------------------------------------------
+
+9) Student Object
+- Create object with name, age, course, city.
+- Print values using dot notation.
+
+Answer:
+let student = {
+  name: "Akhil",
+  age: 25,
+  course: "B.Tech",
+  city: "Belgaum"
+};
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.course);
+console.log(student.city);
+
+-----------------------------------------------------------------------------------------
+
+10) Nested Object Practice
+- Create company object with nested trainer object.
+- Print company name, trainer name, trainer subject.
+
+Answer:
+let company = {
+  name: "Stackly",
+  trainer: {
+    name: "Naveen Kumar",
+    subject: "Web Development"
+  }
+};
+
+console.log(company.name);
+console.log(company.trainer.name);
+console.log(company.trainer.subject);
